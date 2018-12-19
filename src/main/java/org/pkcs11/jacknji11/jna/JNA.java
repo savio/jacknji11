@@ -55,7 +55,7 @@ public class JNA implements NativeProvider {
     private JNANativeI jnaNative = null;
     
     public JNA(){
-        this("cryptoki");
+//        this("cryptoki");
     }
     
     public JNA(String customLibrary) {
